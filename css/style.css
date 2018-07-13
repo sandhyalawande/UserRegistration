@@ -1,0 +1,167 @@
+html, body{
+	font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    overflow-x: hidden;  
+	background-size:cover;
+}
+.rgForm-main h2 {
+	color: #fff;
+    font-size: 29px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+    text-align: center;
+}
+.rgForm-main {
+    width: 30%;
+    margin:0em auto;
+    background:rgba(148, 146, 148, 0.57);
+    padding: 10px 35px;
+}
+select.ggg{
+    width: 100%;
+    padding: 15px 0px 15px 15px;
+    border: 1px solid #fff;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+    margin: 14px 0px;
+	background: none;
+}
+textarea.ggg{
+    width: 100%;
+    padding: 15px 0px 15px 15px;
+    border: 1px solid #fff;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+    margin: 14px 0px;
+	background: none;
+}
+input.ggg{
+    width: 100%;
+    padding: 15px 0px 15px 15px;
+    border: 1px solid #fff;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+    margin: 14px 0px;
+	background: none;
+}
+.rgForm-main span {
+    font-size: 16px;
+    color: #fff;
+    float: left;
+    width: 50%;
+	margin-top: 8px;
+}
+.span-right {
+	text-align:right;
+}
+.rgForm-main a {
+    color: #fff;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-o-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.rgForm-main a:hover{
+	color:#f0bcb4;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-o-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.rgForm-main input[type="submit"] {
+    padding: 12px 38px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: #2fc1c1cf;
+    color: white;
+    border: none;
+    outline: none;
+	display: table;
+    cursor: pointer;
+    margin: 45px auto 31px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.rgForm-main input[type="submit"]:hover {
+	background:#2fc1c1fa;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-o-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.rgForm-main p a {
+    color: #f0bcb4;
+    padding: 10px;
+}
+.rgForm-main p a:hover {
+    color: #fff;
+}
+.rgForm-main p {
+    font-size: 17px;
+    color: #fff;
+	text-align: center;
+}
+
+h4 input[type="checkbox"] {
+    margin-right: 10px;
+}
+.rgForm-main h4{
+    margin-right: 10px;
+	color:#fff;
+	font-weight:400;
+	font-size:14px;
+}
+
+/*--Error message --*/
+.error
+{
+    color: #d4130a;
+    font-size: 14px;
+    height: 15px;
+}
+/*--success message --*/
+.successmsg
+{
+ color: Green;
+    font-size: 18px;
+    height: 15px;   
+}
+
+ /*--placeholder-color--*/
+::-webkit-input-placeholder {
+	color:#fff !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color:#fff !important; 
+}
+::-moz-placeholder {  /* Firefox 19+ */
+	color:#fff !important;
+}
+:-ms-input-placeholder {  
+	color:#fff !important;
+}
+
+@media(max-width:940px)
+{
+	.rgForm-main {width: 50%;}
+}
+
+@media(max-width:550px)
+{
+	.rgForm-main {width: 90%; padding: 5%;}
+	input.ggg {width: 90%; padding: 15px 4%;}
+}
+option {
+    color: black;
+}

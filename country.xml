@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CATALOG>
+  <COUNTRY>
+    <VALUE>India</VALUE>
+    <NAME>India</NAME>
+  </COUNTRY>
+  <COUNTRY>
+    <VALUE>US</VALUE>
+    <NAME>US</NAME>   
+  </COUNTRY>
+  <COUNTRY>
+    <VALUE>UK</VALUE>
+    <NAME>UK</NAME>
+  </COUNTRY>
+  <COUNTRY>
+    <VALUE>USA</VALUE>
+    <NAME>USA</NAME>    
+  </COUNTRY> 
+</CATALOG>

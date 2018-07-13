@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />    
+</head>
+<body>
+    <div class="rgForm-main">
+
+   
+        <h2>
+            User Form</h2>
+             <div id="success" class="successmsg">  </div>
+        <form   name="userReg" onsubmit="return validate()" method="post">
+        <input type="text" class="ggg"  name="fName" placeholder="First Name" required="">
+        <div id="error_fname" class="error">
+        </div>
+        <input type="text" class="ggg"  name="lName" placeholder="Last Name" required="">
+        <div id="error_lname" class="error">
+        </div>
+        <span class="ggg">Gender :</span> <span class="ggg"> <input type="radio" name="gender" value="male" /> &nbsp;Male &nbsp;
+            
+           <input type="radio" name="gender" value="female" /> &nbsp;Female 
+        </span>
+        <div id="error_gender" class="error">
+        </div>
+        <br />
+        <select id="country" name="country" class="ggg">
+            <option value="Country">Country</option>
+
+        </select>
+        <div id="error_country" class="error">
+        </div>
+        <textarea  type="text" class="ggg" name="Message" placeholder="About"></textarea>
+        <h4>
+            Hobbies :</h4>
+        <h4>
+            <input type="checkbox"  name="hobbies[]"value="Reading" />Reading &nbsp;<input type="checkbox"  name="hobbies[]"value="Cycling" />Cycling &nbsp;<input
+                type="checkbox"  name="hobbies[]"value="Swimming" />Swimming &nbsp;<input type="checkbox"  name="hobbies[]"value="Tennis" />Tennis &nbsp;</h4>
+        <h4>
+            <input name="hobbies[]"value="Cricket" type="checkbox" />
+            Cricket &nbsp;<input type="checkbox"  name="hobbies[]"value="Football" />Football &nbsp;<input type="checkbox"  name="hobbies[]"value="Painting" />Painting
+        </h4>
+        <div class="clearfix">
+        </div>
+        <input type="submit" value="submit" name="register"  />
+        </form>
+    </div>
+    <script src="js/validate.js" type="text/javascript"></script>
+</body>
+</html>
